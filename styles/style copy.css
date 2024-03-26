@@ -1,0 +1,32 @@
+/* 1. don't modify this style */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins-Black.ttf");
+  src: url("../font/Poppins-Thin.ttf");
+  src: url("../font/Poppins-Light.ttf");
+  src: url("../font/Poppins-Medium.ttf");
+}
+
+/* 2. we use :root for default variables */
+:root {
+  /* --"somekey-attr": "somevalue" i.e : */
+  --black-700: #000;
+  --darkblue :  #3B2A9F
+}
+/* 3. and we use it like this */
+/*.elementOne {
+  /* var(--"somekey-attr") */
+ /* background-color: var(--black-700);
+}*/
+
+body{
+  background-color: var(--darkblue);
+  width: 1428px;
+}

@@ -2,19 +2,72 @@
 * {
   padding: 0;
   margin: 0;
-
+  font-family: Poppins;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'EtralBold';
+  src: local('EtralBold'), 
+       url('../assets/fonts/Poppins-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: local('Regular'), 
+       url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Light';
+  src: local('Light'), 
+       url('../assets/fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: local('Bold'), 
+       url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: local('Medium'), 
+       url('../assets/fonts/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: local('Rubik-Medium'), 
+       url('../assets/fonts/Rubik-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: local('Rubik-Bold'), 
+       url('../assets/fonts/Rubik-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: local('Poppins-SemiBold'), 
+       url('../assets/fonts/Poppins-SemiBold.ttf') format('truetype');
 }
 
 /* 2. we use :root for default variables */
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
   --black-700: #000;
+  --darkblue :  #3B2A9F;
+  --darkpurple: #5141AA;
+  --orange: #FA8305
 }
 /* 3. and we use it like this */
-.elementOne {
+/*.elementOne {
   /* var(--"somekey-attr") */
-  background-color: var(--black-700);
-}
+ /* background-color: var(--black-700);
+}*/
 
-/* good luck */
+body{
+  background-color: var(--darkblue);
+  width: 1428px;
+}

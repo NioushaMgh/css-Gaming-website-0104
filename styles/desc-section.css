@@ -1,0 +1,93 @@
+.desc-div{
+    margin-left: 148px;
+    margin-top: 103px;
+    height: 510px;
+    width: 527px;
+
+}
+
+.top-sec{
+    display: flex;
+    justify-content: space-between;
+    height: 510px;
+    width: 527px;
+    font-family: 'Bold';
+}
+
+.unity-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 13px;
+    margin-top: 292px;
+    
+}
+.troller-image{
+    width: 550px;
+    height: 570px;
+}
+
+.desc-div-p{
+    color :#cb6a02;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bold';
+}
+
+.desc-div-h{
+    color: white;
+    font-size: 55px;
+    height: 234;
+    width: 479.63;
+    font-family: 'Bold';
+}
+
+.p2-div{
+    color: white;
+    font-size: 16px;
+    width: 527px;
+    height: 101px;
+    font-family: 'Medium';
+    white-space: pre-line;
+    margin-top: -26px;
+}
+
+.button-button2{
+    background-color: var(--orange);
+    color :#ffffff;
+    border-radius: 40px;
+    width: 195px;
+    height: 53px;
+    font-size: 16px;
+    border: var(--orange);
+    
+}
+
+.button-link{
+    color :#ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Medium';
+}
+
+.desc-image-div{
+    width: 806px;
+    height: 761px;
+    margin-right: -280px;
+    margin-top: 20px;
+}
+
+.cry-image{
+    position: absolute;
+    margin-left: -470px;
+    margin-top: 80px;
+    width: 101px;
+    height: 99px;
+}
+
+.unreal-image{
+    position: absolute;
+    width: 59px;
+    height: 64px;
+    margin-top: 100px;
+    margin-left: -160px 
+}

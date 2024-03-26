@@ -1,0 +1,73 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height : 100px;
+    width : 100%;
+    /* padding-top: 25px;
+    padding-bottom: 30px; */
+  }
+  
+  .logo-div{
+    width: 81.93px;
+    height: 45px;
+    margin-left: 59px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .logo{
+    color: #ffffff;
+    line-height: 44.51px;
+    font-weight: 800;
+    font-size: 29px;
+    font-family: 'EtralBold';
+
+  }
+  .head-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left:706.63px ;
+    margin-right: 60px;
+    margin-top: 32px;
+    margin-bottom:26px;
+    font-family: 'Regular';
+  }
+
+  .menu{
+    list-style-type: none;
+    display: flex; 
+    width: 665px;
+    margin-left :-150px;
+    margin-right: 59px;
+  }
+
+  .menu__item{
+    margin-left :65px;
+    margin-top: 6px;
+    Width :74.85px; 
+    Height : 24.2px;
+    padding-right: 50px;
+  }
+
+  .menu__link{
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24.2px;
+    text-decoration: none;
+    font-family: 'Regular';
+  }
+
+  .button-button1{
+    background-color: var(--orange);
+    color :#ffffff;
+    width : 131.66px;
+    height : 41.34px;
+    border-radius : 6px;
+    margin-right: 60px;
+    box-shadow: none;
+    border: var(--orange);
+    margin-top: -10px;
+    font-family: 'Regular';
+  }

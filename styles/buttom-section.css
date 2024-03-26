@@ -1,0 +1,84 @@
+.buttom-sec{
+        margin-left: 146px;
+        margin-top: 234px;
+        width: 1146px;
+}
+
+.buttom-sec-text{
+        color: white;
+        height: 129px;
+        width:545px;
+}
+
+.buttom-sec-text > h4{
+        font-size: 30px;
+        font-family: 'Poppins-SemiBold';
+}
+
+.buttom-sec-text > p{
+        font-size: 16px;
+        font-family: 'Regular';
+        white-space: pre-line;
+}
+
+.buttom-sec-text2{
+        color: white;
+        width: 1170px;
+        height: 189px;
+        background-color: #1C140F;
+        border-radius: 15px;
+        margin-top: 74px;
+        display: flex;
+        flex-direction: row;
+}
+
+.The-div1 > h4{
+        font-size: 30px;
+        font-family: 'Medium';
+}
+
+.The-div1 > p{
+        font-size: 17px;
+        font-family: 'Regular';
+        white-space: pre-line;
+}
+
+.The-div1{
+        height: 107px;
+        width: 636px;
+        padding-top: 40px;
+        padding-left:56px ;
+       
+}
+
+.input-form{
+        margin-left: 42px;
+        border-radius: 8px;
+}
+
+.form__input{
+        height: 48px;
+        width: 386px;
+        margin-top: 71px;
+        border-radius: 8px;
+        margin-right: 50px;
+        padding-left: 40px;
+        border: #ffffff;
+        font-family: 'Light';
+        font-size: 13px;
+}
+
+.button-button5{
+        background-color: var(--orange);
+        color :#ffffff;
+        width : 105.66px;
+        height : 37.34px;
+        border-radius : 8px;        
+        position: absolute;
+        margin-top: 77px;
+        margin-left: -165px;
+        border: var(--orange);
+        font-family: 'Regular';
+        font-size: 13px;
+      }
+

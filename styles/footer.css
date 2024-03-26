@@ -1,0 +1,95 @@
+.footer-table{
+    width : 1600px;
+    height: 400px;
+    background-color: black;
+    margin-top: 163px;
+}
+
+.footer-up-div{
+    width: 1219px;
+    height: 161px;
+    margin-left: 101px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-div-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-div1{
+    color: white;
+    padding-top: 79px;
+    width: 350px;
+}
+
+.footer-ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.footer-div1>h4{
+    font-family: 'EtralBold';
+    font-size: 24px;
+}
+.footer-div1>p{
+    font-size: 16px;
+    font-family: 'Regular';
+    white-space: pre-line;
+}
+
+.footer-div2 .About-us {
+    font-size: 17px;
+    font-family: 'Medium';
+    margin-top: 34px;
+}
+
+.footer-div2{
+    color: white;
+    margin-top: 49px;
+    padding-left: 70px;
+    width: 200px;
+    font-size: 16px;
+    font-family: 'Regular';
+}
+
+.footer-div2 .footer-ul {
+    margin-top: 13px;
+}
+
+.footer-div3>h4{
+    font-size: 17px;
+    font-family: 'Medium';
+    margin-top: -10px;
+}
+.footer-div3{
+    color:white; 
+    width: 400px;
+    margin-top: 93px;
+    padding-left: 100px;
+    font-size: 16px;
+    font-family: 'Regular';
+    font-weight: lighter;
+}
+
+.footer-div4{
+    flex-direction: row;
+    margin-top: 220px;
+    padding-left: -10px;
+}
+.footer-div4 img {
+    margin-top: -73px;
+}
+
+.footer-table>hr{
+    margin-top: 150px;
+}
+
+.footer-buttom-div{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 13px;
+}
